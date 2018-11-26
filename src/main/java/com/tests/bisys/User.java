@@ -67,7 +67,7 @@ public class User {
 	
 	@XmlElementWrapper(name = "favcolors")
 	@XmlElement(name = "favcolor")
-	public List<String> getFavouriteColors() {
+	public List<String> getFavcolors() {
 		return favouriteColors;
 	}
 	
